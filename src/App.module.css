@@ -1,0 +1,51 @@
+.container {
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+}
+
+.main {
+    width: 75%;
+    padding: 0px 40px;
+}
+
+.aside {
+    background-color: #F6FAFB;
+    margin-left: 25px;
+    width: 25%;
+    padding: 0px 15px;
+    height: 100%;
+}
+
+
+@media (max-width: 900px) {
+    .main {
+        width: 70%;
+    }
+
+    .aside {
+        width: 30%;
+    }
+}
+
+@media (max-width: 750px) {
+    .main {
+        width: 60%;
+    }
+
+    .aside {
+        width: 40%;
+    }
+}
+
+@media (max-width: 550px) {
+    .main {
+        width: 60%;
+        padding: 0;
+        padding-left: 5px;
+    }
+
+    .aside {
+        width: 50%;
+    }
+}

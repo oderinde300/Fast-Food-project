@@ -1,0 +1,56 @@
+.meal-item {
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    width: 200px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.1rem;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all .2s ease-in-out;
+}
+
+.meal-item:hover {
+    transform: scale(1.1)
+}
+
+.meal-item-img img {
+    height: 150px;
+    width: 190px;
+    object-fit: cover;
+    align-self: center;
+    justify-self: center;
+}
+
+.meal-item__text {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
+
+}
+
+
+.meal-item-name {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+}
+
+.meal-item-price {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+}
+
+.price {
+    font-weight: 800;
+}
+
+@media (max-width: 780px) {
+    .meal-item {
+        margin-bottom: 0;
+    }
+
+}

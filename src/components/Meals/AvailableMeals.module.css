@@ -1,0 +1,46 @@
+.available-meals {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+    gap: 5%;
+    background-color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+.MealLoading {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.MealsError {
+    text-align: center;
+    margin-top: 15px;
+    color: red;
+}
+
+@media (max-width:1300px) {
+
+    .available-meals {
+        grid-template-columns: repeat(3, 33%);
+    }
+}
+
+@media (max-width:900px) {
+
+    .available-meals {
+        grid-template-columns: repeat(2, 45%);
+    }
+}
+
+@media (max-width:780px) {
+
+    .available-meals {
+        grid-template-columns: repeat(1, 90%);
+        row-gap: 30px;
+    }
+}

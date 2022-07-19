@@ -1,0 +1,37 @@
+.Cart-item-totals-container {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.Cart-item-totals {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #419A22;
+    border-bottom: 1px solid #419A22;
+    padding: 10px 0;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+.Cart-item-total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 500;
+
+}
+
+.total {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.total-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 500;
+}
